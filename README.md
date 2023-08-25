@@ -1,6 +1,6 @@
 [![Willian Winckler's GitHub stats](https://github-readme-stats.vercel.app/api?username=wincklerhigher)](https://github.com/anuraghazra/github-readme-stats)
 
-<div style="display: inline_block"><br>
+<div style="display: inline_block; padding: 5px">
   <img align="center" alt="Will-MySQL" height="32" width="80" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" style="max-width: 100%;">
   <img align="center" alt="Will-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" style="max-width: 100%;">
   <img align="center" alt="Will-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" style="max-width: 100%;">
