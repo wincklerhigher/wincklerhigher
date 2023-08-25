@@ -66,3 +66,4 @@ Whether you're here to explore my projects or collaborate on something exciting,
 Happy coding! 🖥️
 
 ![snake gif](https://github.com/wincklerhigher/wincklerhigher/blob/output/github-contribution-grid-snake.gif)
+
