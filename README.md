@@ -1,5 +1,15 @@
 [![Willian Winckler's GitHub stats](https://github-readme-stats.vercel.app/api?username=wincklerhigher)](https://github.com/anuraghazra/github-readme-stats)
 
+<style>
+.image-container {
+    display: inline-block;
+/* Media query for screens up to a certain width (e.g., mobile screens) */
+@media screen and (max-width: 767px) 
+    display: block;
+    margin-bottom: 10px; 
+}
+</style>
+
 <div class="image-container">
   <img align="center" alt="Will-MySQL" height="32" width="80" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" style="max-width: 100%;">
 </div>
