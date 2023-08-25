@@ -48,7 +48,7 @@ Feliz codificação! 🖥️
 I'm Willian Winckler, a passionate software developer with a diverse range of knowledge. Proficient in the language of code and in English, I have honed my skills over the years through a variety of experiences and learning opportunities.
 
 🚀 My Coding Journey:
-From crafting elegant user interfaces with HTML, harnessing the power of JavaScript libraries like React, to ensuring robust functionality with C# and ASP.NET MVC, I've been on a continuous journey of growth in the realm of web development. My code is not just about making things work; it's about making them work seamlessly, efficiently, and beautifully.
+From crafting elegant user interfaces in HTML and harnessing the potential of JavaScript libraries like React, to ensuring robust functionalities with C# and ASP.NET MVC, I have embarked on a continuous journey in the realm of web development. My code doesn't just work, it also enhances seamlessly, efficiently and beautifully, with the thoughtful application of CSS styles to elevate the visual experience. 
 
 💼 Tech Toolbox:
 
