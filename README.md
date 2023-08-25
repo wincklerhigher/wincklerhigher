@@ -1,21 +1,45 @@
 [![Willian Winckler's GitHub stats](https://github-readme-stats.vercel.app/api?username=wincklerhigher)](https://github.com/anuraghazra/github-readme-stats)
 
-<div style="display: block; padding: 3px">
+<div class="image-container">
   <img align="center" alt="Will-MySQL" height="32" width="80" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" style="max-width: 100%;">
+</div>
+<div class="image-container">
   <img align="center" alt="Will-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" style="max-width: 100%;">
+</div>
+<div class="image-container">
   <img align="center" alt="Will-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" style="max-width: 100%;">
+</div>
+<div class="image-container">
   <img align="center" alt="Will-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" style="max-width: 100%;">
+</div>
+<div class="image-container">
   <img align="center" alt="Will-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" style="max-width: 100%;">
+</div>
+<div class="image-container">
   <img align="center" alt="Will-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" style="max-width: 100%;">
+</div>
+<div class="image-container">
   <img align="center" alt="Will-ASP.NET" height="20" width="100" src="https://img.shields.io/badge/ASP.NET_Core-5C2D91?style=flat&logo=.net&logoColor=white" style="max-width: 100%;">
 </div>
+
+.image-container {
+  display: inline-block;
+}
+
+/* Media query for screens up to a certain width (e.g., mobile screens) */
+@media screen and (max-width: 767px) {
+  .image-container {
+    display: block;
+    margin-bottom: 10px; 
+  }
+}
   
- ##
+##
  
- <div>
- <a href="https://www.linkedin.com/in/willian-winckler-bb86b767/" target="_blank"> <img height="30em" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
- <a href="mailto:willian.winckler@hotmail.com"><img height="30em" src="https://img.shields.io/badge/-Hotmail-0078D4?style=flat-square&amp;logo=microsoft-outlook&amp;logoColor=white" target="_blank"></a>  
- </div>
+<div>
+<a href="https://www.linkedin.com/in/willian-winckler-bb86b767/" target="_blank"> <img height="30em" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="mailto:willian.winckler@hotmail.com"><img height="30em" src="https://img.shields.io/badge/-Hotmail-0078D4?style=flat-square&amp;logo=microsoft-outlook&amp;logoColor=white" target="_blank"></a>  
+</div>
  
  ##
 
