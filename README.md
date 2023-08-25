@@ -24,7 +24,7 @@
 Eu sou Willian Winckler, um desenvolvedor de software apaixonado com um amplo conjunto de conhecimentos. Proficiente na linguagem do código e em inglês, aprimorei minhas habilidades ao longo dos anos por meio de uma variedade de experiências e oportunidades de aprendizado.
 
 🚀 Minha Jornada na Codificação:
-Desde a criação de interfaces de usuário elegantes com HTML, explorando o poder das bibliotecas de JavaScript como o React, até garantir uma funcionalidade robusta com C# e ASP.NET MVC, tenho seguido uma jornada contínua de crescimento no mundo do desenvolvimento web. Meu código não se trata apenas de fazer as coisas funcionarem; trata-se de torná-las funcionar de maneira fluida, eficiente e bonita.
+Da criação de elegantes interfaces de usuário em HTML e exploração do poder das bibliotecas de JavaScript como o React, até garantir funcionalidades robustas com C# e ASP.NET MVC, tenho trilhado uma jornada contínua no desenvolvimento web. Meu código não apenas funciona, mas também aprimora de maneira fluída, eficiente e bonita, com a aplicação cuidadosa de estilos CSS para melhorar a experiência visual.
 
 💼 Ferramentas Tecnológicas:
 
