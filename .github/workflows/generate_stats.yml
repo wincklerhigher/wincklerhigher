@@ -1,48 +1,25 @@
-name: Update GitHub Stats
+name: Generate Stats
 
 on:
   schedule:
-    - cron: "0 3 * * *"  # atualiza todo dia às 03:00 UTC
-  workflow_dispatch:     # permite rodar manualmente
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - name: Checkout Repo
+        uses: actions/checkout@v4
 
-      - name: Instalar dependências
+      - name: Download Stats Image
         run: |
-          sudo apt-get update
-          sudo apt-get install -y imagemagick jq curl
+          mkdir -p assets
+          curl -o assets/stats.png "https://github-readme-stats.vercel.app/api?username=wincklerhigher&theme=tokyonight&hide_border=true"
 
-      - name: Buscar dados da API do GitHub
-        env:
-          USERNAME: wincklerhigher
-        run: |
-          curl -s https://api.github.com/users/$USERNAME > user.json
-          curl -s https://api.github.com/users/$USERNAME/repos?per_page=200 > repos.json
-
-      - name: Gerar imagem PNG futurista
-        run: |
-          STARS=$(jq '[.[].stargazers_count] | add' repos.json)
-          PUBLIC_REPOS=$(jq '.public_repos' user.json)
-          FOLLOWERS=$(jq '.followers' user.json)
-
-          convert -size 900x500 xc:"#0a0f1f" \
-            -fill "#00eaff" -pointsize 52 -gravity North -annotate +0+40 "Willian Winckler" \
-            -fill "#00c8d6" -pointsize 26 -annotate +0+110 "github.com/wincklerhigher" \
-            -fill "#00eaff" -pointsize 36 -annotate +0+190 "Stars: $STARS" \
-            -fill "#00eaff" -pointsize 36 -annotate +0+250 "Repositórios públicos: $PUBLIC_REPOS" \
-            -fill "#00eaff" -pointsize 36 -annotate +0+310 "Seguidores: $FOLLOWERS" \
-            assets/stats.png
-
-      - name: Commit & Push
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add assets/stats.png
-          git commit -m "Atualizar imagem automática de stats" || echo "Nada para commitar"
-          git push
+      - name: Commit updated stats
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update GitHub stats"
+          file_pattern: assets/stats.png
