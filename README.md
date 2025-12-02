@@ -1,4 +1,4 @@
-[![Winckler's GitHub stats](https://github-readme-stats.vercel.app/api?username=wincklerhigher&cache_seconds=3600)](https://github.com/anuraghazra/github-readme-stats)
+[![Winckler's GitHub stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=wincklerhigher)](https://github.com/anuraghazra/github-readme-stats)
 
 
 <strong><span>Languages:</span></strong>
