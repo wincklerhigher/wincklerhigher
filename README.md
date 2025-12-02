@@ -1,4 +1,4 @@
-[![Winckler's GitHub stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=wincklerhigher)](https://github.com/anuraghazra/github-readme-stats)
+![Stats](assets/stats.png)
 
 <strong><span>Languages:</span></strong>
 <div style="display: inline-block; padding: 3px;">
