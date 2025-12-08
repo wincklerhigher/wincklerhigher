@@ -1,4 +1,3 @@
-![Stats](assets/stats.png)
 
 <strong><span>Languages:</span></strong>
 <div style="display: inline-block; padding: 3px;">
