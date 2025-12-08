@@ -13,8 +13,7 @@
 ##
  
 <div>
-<a href="https://www.linkedin.com/in/willian-winckler-bb86b767/" target="_blank"> <img height="30em" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-<a href="mailto:willian.winckler@hotmail.com"><img height="30em" src="https://img.shields.io/badge/-Hotmail-0078D4?style=flat-square&amp;logo=microsoft-outlook&amp;logoColor=white" target="_blank"></a>  
+<a href="mailto:willian.winckler@hotmail.com"><img height="28em" src="https://img.shields.io/badge/-Hotmail-0078D4?style=flat-square&amp;logo=microsoft-outlook&amp;logoColor=white" target="_blank"></a>  
 </div>
  
  ##
